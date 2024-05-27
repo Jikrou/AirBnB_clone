@@ -1,0 +1,70 @@
+.places {
+    margin-top: 20px;
+}
+
+.places h1 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    display: inline-block; 
+    vertical-align: top; 
+}
+
+.places h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.information {
+    height: 80px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0; 
+}
+
+.information div {
+    width: 100px;
+    text-align: center;
+}
+
+
+.icons {
+    background-repeat: no-repeat;
+    background-size: contain; /* Ensure the icon is fully contained within the element */
+    width: 50px; /* Adjust width based on the actual size of your icon */
+    height: 50px; /* Adjust height based on the actual size of your icon */
+    margin-right: 5px; /* Add some space between the icon and the text */
+    display: grid; /* Make sure the element respects the width and height */
+}
+.guest-icon {
+    background-image: url('../images/icon_group.png');
+}
+
+.rooms-icon {
+    background-image: url('../images/icon_bed.png');
+}
+
+.bath-icon {
+    background-image: url('../images/icon_bath.png');
+}
+
+.user {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
